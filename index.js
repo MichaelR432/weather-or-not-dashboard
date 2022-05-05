@@ -32,7 +32,7 @@ $(document).ready(function() {
     
     // ajax call to get current weather of city search
     $.ajax({
-        url: apiKey,
+        url: currentWeather,
         method: "GET"
     }).then(function (response) {
 
